@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [Failed suite [Suite12345]]" guice-stage="DEVELOPMENT">
+  <test thread-count="5" name="ChromeTest(failed)(failed)">
+    <parameter name="browsername" value="chrome"/>
+    <classes>
+      <class name="Maven.VerifyElectricityPage">
+        <methods>
+          <include name="clickonApplicationHeader"/>
+          <include name="closebrowser"/>
+          <include name="createPOMObject"/>
+          <include name="verifyenergyawerness"/>
+          <include name="lounchbowser"/>
+          <include name="closedbrowser"/>
+          <include name="verifyconserverenergy"/>
+          <include name="verifylogout"/>
+        </methods>
+      </class> <!-- Maven.VerifyElectricityPage -->
+    </classes>
+  </test> <!-- ChromeTest(failed)(failed) -->
+  <test thread-count="5" name="FirefoxTest(failed)(failed)">
+    <parameter name="browsername" value="Firefox"/>
+    <classes>
+      <class name="Maven.VerifyElectricityPage">
+        <methods>
+          <include name="clickonApplicationHeader"/>
+          <include name="closebrowser"/>
+          <include name="createPOMObject"/>
+          <include name="verifyenergyawerness"/>
+          <include name="lounchbowser"/>
+          <include name="closedbrowser"/>
+          <include name="verifyconserverenergy"/>
+          <include name="verifylogout"/>
+        </methods>
+      </class> <!-- Maven.VerifyElectricityPage -->
+    </classes>
+  </test> <!-- FirefoxTest(failed)(failed) -->
+  <test thread-count="5" name="IETest(failed)(failed)">
+    <parameter name="browsername" value="Internet Explorer"/>
+    <classes>
+      <class name="Maven.VerifyElectricityPage">
+        <methods>
+          <include name="clickonApplicationHeader"/>
+          <include name="closebrowser"/>
+          <include name="createPOMObject"/>
+          <include name="verifyenergyawerness"/>
+          <include name="lounchbowser"/>
+          <include name="closedbrowser"/>
+          <include name="verifyconserverenergy"/>
+          <include name="verifylogout"/>
+        </methods>
+      </class> <!-- Maven.VerifyElectricityPage -->
+    </classes>
+  </test> <!-- IETest(failed)(failed) -->
+</suite> <!-- Failed suite [Failed suite [Suite12345]] -->

@@ -1,0 +1,585 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="9" passed="0" failed="0" skipped="9">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2022-05-30T11:37:43 IST" name="Suite 3" finished-at="2022-05-30T11:37:44 IST" duration-ms="1384">
+    <groups>
+    </groups>
+    <test started-at="2022-05-30T11:37:43 IST" name="ChromeTest" finished-at="2022-05-30T11:37:43 IST" duration-ms="395">
+      <class name="Maven.VerifyWBSEDClPage">
+        <test-method is-config="true" signature="lounchbrowser(java.lang.String)[pri:0, instance:Maven.VerifyWBSEDClPage@7a419da4]" started-at="2022-05-30T11:37:43 IST" name="lounchbrowser" finished-at="1970-01-01T05:30:00 IST" duration-ms="-1653890863219" status="FAIL">
+          <exception class="org.testng.TestNGException">
+            <message>
+              <![CDATA[
+Parameter 'browser' is required by BeforeTest on method lounchbrowser but has not been marked @Optional or defined
+in C:\Users\Tanmoy\eclipse-workspace\SeleniumTesting\WbSEDCL.xml]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[org.testng.TestNGException: 
+Parameter 'browser' is required by BeforeTest on method lounchbrowser but has not been marked @Optional or defined
+in C:\Users\Tanmoy\eclipse-workspace\SeleniumTesting\WbSEDCL.xml
+at org.testng.internal.Parameters.createParams(Parameters.java:270)
+at org.testng.internal.Parameters.createParametersForMethod(Parameters.java:358)
+at org.testng.internal.Parameters.createParameters(Parameters.java:700)
+at org.testng.internal.Parameters.createConfigurationParameters(Parameters.java:168)
+at org.testng.internal.ConfigInvoker.invokeConfigurations(ConfigInvoker.java:302)
+at org.testng.TestRunner.invokeTestConfigurations(TestRunner.java:637)
+at org.testng.TestRunner.beforeRun(TestRunner.java:627)
+at org.testng.TestRunner.run(TestRunner.java:589)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:377)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:371)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:332)
+at org.testng.SuiteRunner.run(SuiteRunner.java:276)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:53)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:96)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1212)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1134)
+at org.testng.TestNG.runSuites(TestNG.java:1063)
+at org.testng.TestNG.run(TestNG.java:1031)
+at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+]]>
+            </full-stacktrace>
+          </exception> <!-- org.testng.TestNGException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- lounchbrowser -->
+        <test-method is-config="true" signature="createPOMObject()[pri:0, instance:Maven.VerifyWBSEDClPage@7a419da4]" started-at="2022-05-30T11:37:43 IST" name="createPOMObject" finished-at="1970-01-01T05:30:00 IST" duration-ms="-1653890863334" status="SKIP">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- createPOMObject -->
+        <test-method is-config="true" signature="movetoApplicationHeader()[pri:0, instance:Maven.VerifyWBSEDClPage@7a419da4]" started-at="2022-05-30T11:37:43 IST" name="movetoApplicationHeader" finished-at="1970-01-01T05:30:00 IST" duration-ms="-1653890863391" status="SKIP">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- movetoApplicationHeader -->
+        <test-method signature="verifyconectionformilities()[pri:1, instance:Maven.VerifyWBSEDClPage@7a419da4]" started-at="2022-05-30T11:37:43 IST" name="verifyconectionformilities" finished-at="2022-05-30T11:37:43 IST" duration-ms="0" status="SKIP">
+          <exception class="org.testng.TestNGException">
+            <message>
+              <![CDATA[
+Parameter 'browser' is required by BeforeTest on method lounchbrowser but has not been marked @Optional or defined
+in C:\Users\Tanmoy\eclipse-workspace\SeleniumTesting\WbSEDCL.xml]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[org.testng.TestNGException: 
+Parameter 'browser' is required by BeforeTest on method lounchbrowser but has not been marked @Optional or defined
+in C:\Users\Tanmoy\eclipse-workspace\SeleniumTesting\WbSEDCL.xml
+at org.testng.internal.Parameters.createParams(Parameters.java:270)
+at org.testng.internal.Parameters.createParametersForMethod(Parameters.java:358)
+at org.testng.internal.Parameters.createParameters(Parameters.java:700)
+at org.testng.internal.Parameters.createConfigurationParameters(Parameters.java:168)
+at org.testng.internal.ConfigInvoker.invokeConfigurations(ConfigInvoker.java:302)
+at org.testng.TestRunner.invokeTestConfigurations(TestRunner.java:637)
+at org.testng.TestRunner.beforeRun(TestRunner.java:627)
+at org.testng.TestRunner.run(TestRunner.java:589)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:377)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:371)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:332)
+at org.testng.SuiteRunner.run(SuiteRunner.java:276)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:53)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:96)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1212)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1134)
+at org.testng.TestNG.runSuites(TestNG.java:1063)
+at org.testng.TestNG.run(TestNG.java:1031)
+at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+]]>
+            </full-stacktrace>
+          </exception> <!-- org.testng.TestNGException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyconectionformilities -->
+        <test-method is-config="true" signature="clickonApplicationHeader(org.testng.ITestResult)[pri:0, instance:Maven.VerifyWBSEDClPage@7a419da4]" started-at="2022-05-30T11:37:43 IST" name="clickonApplicationHeader" finished-at="1970-01-01T05:30:00 IST" duration-ms="-1653890863420" status="SKIP">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- clickonApplicationHeader -->
+        <test-method is-config="true" signature="movetoApplicationHeader()[pri:0, instance:Maven.VerifyWBSEDClPage@7a419da4]" started-at="2022-05-30T11:37:43 IST" name="movetoApplicationHeader" finished-at="1970-01-01T05:30:00 IST" duration-ms="-1653890863433" status="SKIP">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- movetoApplicationHeader -->
+        <test-method signature="verifyconsumerdashboard()[pri:2, instance:Maven.VerifyWBSEDClPage@7a419da4]" started-at="2022-05-30T11:37:43 IST" name="verifyconsumerdashboard" finished-at="2022-05-30T11:37:43 IST" duration-ms="0" status="SKIP">
+          <exception class="org.testng.TestNGException">
+            <message>
+              <![CDATA[
+Parameter 'browser' is required by BeforeTest on method lounchbrowser but has not been marked @Optional or defined
+in C:\Users\Tanmoy\eclipse-workspace\SeleniumTesting\WbSEDCL.xml]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[org.testng.TestNGException: 
+Parameter 'browser' is required by BeforeTest on method lounchbrowser but has not been marked @Optional or defined
+in C:\Users\Tanmoy\eclipse-workspace\SeleniumTesting\WbSEDCL.xml
+at org.testng.internal.Parameters.createParams(Parameters.java:270)
+at org.testng.internal.Parameters.createParametersForMethod(Parameters.java:358)
+at org.testng.internal.Parameters.createParameters(Parameters.java:700)
+at org.testng.internal.Parameters.createConfigurationParameters(Parameters.java:168)
+at org.testng.internal.ConfigInvoker.invokeConfigurations(ConfigInvoker.java:302)
+at org.testng.TestRunner.invokeTestConfigurations(TestRunner.java:637)
+at org.testng.TestRunner.beforeRun(TestRunner.java:627)
+at org.testng.TestRunner.run(TestRunner.java:589)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:377)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:371)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:332)
+at org.testng.SuiteRunner.run(SuiteRunner.java:276)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:53)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:96)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1212)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1134)
+at org.testng.TestNG.runSuites(TestNG.java:1063)
+at org.testng.TestNG.run(TestNG.java:1031)
+at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+]]>
+            </full-stacktrace>
+          </exception> <!-- org.testng.TestNGException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyconsumerdashboard -->
+        <test-method is-config="true" signature="clickonApplicationHeader(org.testng.ITestResult)[pri:0, instance:Maven.VerifyWBSEDClPage@7a419da4]" started-at="2022-05-30T11:37:43 IST" name="clickonApplicationHeader" finished-at="1970-01-01T05:30:00 IST" duration-ms="-1653890863456" status="SKIP">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- clickonApplicationHeader -->
+        <test-method is-config="true" signature="movetoApplicationHeader()[pri:0, instance:Maven.VerifyWBSEDClPage@7a419da4]" started-at="2022-05-30T11:37:43 IST" name="movetoApplicationHeader" finished-at="1970-01-01T05:30:00 IST" duration-ms="-1653890863466" status="SKIP">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- movetoApplicationHeader -->
+        <test-method signature="verifydownloadappliform()[pri:3, instance:Maven.VerifyWBSEDClPage@7a419da4]" started-at="2022-05-30T11:37:43 IST" name="verifydownloadappliform" finished-at="2022-05-30T11:37:43 IST" duration-ms="0" status="SKIP">
+          <exception class="org.testng.TestNGException">
+            <message>
+              <![CDATA[
+Parameter 'browser' is required by BeforeTest on method lounchbrowser but has not been marked @Optional or defined
+in C:\Users\Tanmoy\eclipse-workspace\SeleniumTesting\WbSEDCL.xml]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[org.testng.TestNGException: 
+Parameter 'browser' is required by BeforeTest on method lounchbrowser but has not been marked @Optional or defined
+in C:\Users\Tanmoy\eclipse-workspace\SeleniumTesting\WbSEDCL.xml
+at org.testng.internal.Parameters.createParams(Parameters.java:270)
+at org.testng.internal.Parameters.createParametersForMethod(Parameters.java:358)
+at org.testng.internal.Parameters.createParameters(Parameters.java:700)
+at org.testng.internal.Parameters.createConfigurationParameters(Parameters.java:168)
+at org.testng.internal.ConfigInvoker.invokeConfigurations(ConfigInvoker.java:302)
+at org.testng.TestRunner.invokeTestConfigurations(TestRunner.java:637)
+at org.testng.TestRunner.beforeRun(TestRunner.java:627)
+at org.testng.TestRunner.run(TestRunner.java:589)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:377)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:371)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:332)
+at org.testng.SuiteRunner.run(SuiteRunner.java:276)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:53)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:96)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1212)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1134)
+at org.testng.TestNG.runSuites(TestNG.java:1063)
+at org.testng.TestNG.run(TestNG.java:1031)
+at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+]]>
+            </full-stacktrace>
+          </exception> <!-- org.testng.TestNGException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifydownloadappliform -->
+        <test-method is-config="true" signature="clickonApplicationHeader(org.testng.ITestResult)[pri:0, instance:Maven.VerifyWBSEDClPage@7a419da4]" started-at="2022-05-30T11:37:43 IST" name="clickonApplicationHeader" finished-at="1970-01-01T05:30:00 IST" duration-ms="-1653890863517" status="SKIP">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- clickonApplicationHeader -->
+        <test-method is-config="true" signature="closebrowser()[pri:0, instance:Maven.VerifyWBSEDClPage@7a419da4]" started-at="2022-05-30T11:37:43 IST" name="closebrowser" finished-at="1970-01-01T05:30:00 IST" duration-ms="-1653890863532" status="SKIP">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closebrowser -->
+        <test-method is-config="true" signature="closedbrowser()[pri:0, instance:Maven.VerifyWBSEDClPage@7a419da4]" started-at="2022-05-30T11:37:43 IST" name="closedbrowser" finished-at="1970-01-01T05:30:00 IST" duration-ms="-1653890863544" status="SKIP">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closedbrowser -->
+      </class> <!-- Maven.VerifyWBSEDClPage -->
+    </test> <!-- ChromeTest -->
+    <test started-at="2022-05-30T11:37:43 IST" name="FirefoxTest" finished-at="2022-05-30T11:37:44 IST" duration-ms="320">
+      <class name="Maven.VerifyWBSEDClPage">
+        <test-method is-config="true" signature="lounchbrowser(java.lang.String)[pri:0, instance:Maven.VerifyWBSEDClPage@543588e6]" started-at="2022-05-30T11:37:44 IST" name="lounchbrowser" finished-at="1970-01-01T05:30:00 IST" duration-ms="-1653890864000" status="FAIL">
+          <exception class="org.testng.TestNGException">
+            <message>
+              <![CDATA[
+Parameter 'browser' is required by BeforeTest on method lounchbrowser but has not been marked @Optional or defined
+in C:\Users\Tanmoy\eclipse-workspace\SeleniumTesting\WbSEDCL.xml]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[org.testng.TestNGException: 
+Parameter 'browser' is required by BeforeTest on method lounchbrowser but has not been marked @Optional or defined
+in C:\Users\Tanmoy\eclipse-workspace\SeleniumTesting\WbSEDCL.xml
+at org.testng.internal.Parameters.createParams(Parameters.java:270)
+at org.testng.internal.Parameters.createParametersForMethod(Parameters.java:358)
+at org.testng.internal.Parameters.createParameters(Parameters.java:700)
+at org.testng.internal.Parameters.createConfigurationParameters(Parameters.java:168)
+at org.testng.internal.ConfigInvoker.invokeConfigurations(ConfigInvoker.java:302)
+at org.testng.TestRunner.invokeTestConfigurations(TestRunner.java:637)
+at org.testng.TestRunner.beforeRun(TestRunner.java:627)
+at org.testng.TestRunner.run(TestRunner.java:589)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:377)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:371)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:332)
+at org.testng.SuiteRunner.run(SuiteRunner.java:276)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:53)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:96)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1212)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1134)
+at org.testng.TestNG.runSuites(TestNG.java:1063)
+at org.testng.TestNG.run(TestNG.java:1031)
+at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+]]>
+            </full-stacktrace>
+          </exception> <!-- org.testng.TestNGException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- lounchbrowser -->
+        <test-method is-config="true" signature="createPOMObject()[pri:0, instance:Maven.VerifyWBSEDClPage@543588e6]" started-at="2022-05-30T11:37:44 IST" name="createPOMObject" finished-at="1970-01-01T05:30:00 IST" duration-ms="-1653890864024" status="SKIP">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- createPOMObject -->
+        <test-method is-config="true" signature="movetoApplicationHeader()[pri:0, instance:Maven.VerifyWBSEDClPage@543588e6]" started-at="2022-05-30T11:37:44 IST" name="movetoApplicationHeader" finished-at="1970-01-01T05:30:00 IST" duration-ms="-1653890864036" status="SKIP">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- movetoApplicationHeader -->
+        <test-method signature="verifyconectionformilities()[pri:1, instance:Maven.VerifyWBSEDClPage@543588e6]" started-at="2022-05-30T11:37:44 IST" name="verifyconectionformilities" finished-at="2022-05-30T11:37:44 IST" duration-ms="0" status="SKIP">
+          <exception class="org.testng.TestNGException">
+            <message>
+              <![CDATA[
+Parameter 'browser' is required by BeforeTest on method lounchbrowser but has not been marked @Optional or defined
+in C:\Users\Tanmoy\eclipse-workspace\SeleniumTesting\WbSEDCL.xml]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[org.testng.TestNGException: 
+Parameter 'browser' is required by BeforeTest on method lounchbrowser but has not been marked @Optional or defined
+in C:\Users\Tanmoy\eclipse-workspace\SeleniumTesting\WbSEDCL.xml
+at org.testng.internal.Parameters.createParams(Parameters.java:270)
+at org.testng.internal.Parameters.createParametersForMethod(Parameters.java:358)
+at org.testng.internal.Parameters.createParameters(Parameters.java:700)
+at org.testng.internal.Parameters.createConfigurationParameters(Parameters.java:168)
+at org.testng.internal.ConfigInvoker.invokeConfigurations(ConfigInvoker.java:302)
+at org.testng.TestRunner.invokeTestConfigurations(TestRunner.java:637)
+at org.testng.TestRunner.beforeRun(TestRunner.java:627)
+at org.testng.TestRunner.run(TestRunner.java:589)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:377)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:371)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:332)
+at org.testng.SuiteRunner.run(SuiteRunner.java:276)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:53)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:96)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1212)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1134)
+at org.testng.TestNG.runSuites(TestNG.java:1063)
+at org.testng.TestNG.run(TestNG.java:1031)
+at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+]]>
+            </full-stacktrace>
+          </exception> <!-- org.testng.TestNGException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyconectionformilities -->
+        <test-method is-config="true" signature="clickonApplicationHeader(org.testng.ITestResult)[pri:0, instance:Maven.VerifyWBSEDClPage@543588e6]" started-at="2022-05-30T11:37:44 IST" name="clickonApplicationHeader" finished-at="1970-01-01T05:30:00 IST" duration-ms="-1653890864068" status="SKIP">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- clickonApplicationHeader -->
+        <test-method is-config="true" signature="movetoApplicationHeader()[pri:0, instance:Maven.VerifyWBSEDClPage@543588e6]" started-at="2022-05-30T11:37:44 IST" name="movetoApplicationHeader" finished-at="1970-01-01T05:30:00 IST" duration-ms="-1653890864118" status="SKIP">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- movetoApplicationHeader -->
+        <test-method signature="verifyconsumerdashboard()[pri:2, instance:Maven.VerifyWBSEDClPage@543588e6]" started-at="2022-05-30T11:37:44 IST" name="verifyconsumerdashboard" finished-at="2022-05-30T11:37:44 IST" duration-ms="0" status="SKIP">
+          <exception class="org.testng.TestNGException">
+            <message>
+              <![CDATA[
+Parameter 'browser' is required by BeforeTest on method lounchbrowser but has not been marked @Optional or defined
+in C:\Users\Tanmoy\eclipse-workspace\SeleniumTesting\WbSEDCL.xml]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[org.testng.TestNGException: 
+Parameter 'browser' is required by BeforeTest on method lounchbrowser but has not been marked @Optional or defined
+in C:\Users\Tanmoy\eclipse-workspace\SeleniumTesting\WbSEDCL.xml
+at org.testng.internal.Parameters.createParams(Parameters.java:270)
+at org.testng.internal.Parameters.createParametersForMethod(Parameters.java:358)
+at org.testng.internal.Parameters.createParameters(Parameters.java:700)
+at org.testng.internal.Parameters.createConfigurationParameters(Parameters.java:168)
+at org.testng.internal.ConfigInvoker.invokeConfigurations(ConfigInvoker.java:302)
+at org.testng.TestRunner.invokeTestConfigurations(TestRunner.java:637)
+at org.testng.TestRunner.beforeRun(TestRunner.java:627)
+at org.testng.TestRunner.run(TestRunner.java:589)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:377)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:371)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:332)
+at org.testng.SuiteRunner.run(SuiteRunner.java:276)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:53)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:96)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1212)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1134)
+at org.testng.TestNG.runSuites(TestNG.java:1063)
+at org.testng.TestNG.run(TestNG.java:1031)
+at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+]]>
+            </full-stacktrace>
+          </exception> <!-- org.testng.TestNGException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyconsumerdashboard -->
+        <test-method is-config="true" signature="clickonApplicationHeader(org.testng.ITestResult)[pri:0, instance:Maven.VerifyWBSEDClPage@543588e6]" started-at="2022-05-30T11:37:44 IST" name="clickonApplicationHeader" finished-at="1970-01-01T05:30:00 IST" duration-ms="-1653890864149" status="SKIP">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- clickonApplicationHeader -->
+        <test-method is-config="true" signature="movetoApplicationHeader()[pri:0, instance:Maven.VerifyWBSEDClPage@543588e6]" started-at="2022-05-30T11:37:44 IST" name="movetoApplicationHeader" finished-at="1970-01-01T05:30:00 IST" duration-ms="-1653890864162" status="SKIP">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- movetoApplicationHeader -->
+        <test-method signature="verifydownloadappliform()[pri:3, instance:Maven.VerifyWBSEDClPage@543588e6]" started-at="2022-05-30T11:37:44 IST" name="verifydownloadappliform" finished-at="2022-05-30T11:37:44 IST" duration-ms="0" status="SKIP">
+          <exception class="org.testng.TestNGException">
+            <message>
+              <![CDATA[
+Parameter 'browser' is required by BeforeTest on method lounchbrowser but has not been marked @Optional or defined
+in C:\Users\Tanmoy\eclipse-workspace\SeleniumTesting\WbSEDCL.xml]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[org.testng.TestNGException: 
+Parameter 'browser' is required by BeforeTest on method lounchbrowser but has not been marked @Optional or defined
+in C:\Users\Tanmoy\eclipse-workspace\SeleniumTesting\WbSEDCL.xml
+at org.testng.internal.Parameters.createParams(Parameters.java:270)
+at org.testng.internal.Parameters.createParametersForMethod(Parameters.java:358)
+at org.testng.internal.Parameters.createParameters(Parameters.java:700)
+at org.testng.internal.Parameters.createConfigurationParameters(Parameters.java:168)
+at org.testng.internal.ConfigInvoker.invokeConfigurations(ConfigInvoker.java:302)
+at org.testng.TestRunner.invokeTestConfigurations(TestRunner.java:637)
+at org.testng.TestRunner.beforeRun(TestRunner.java:627)
+at org.testng.TestRunner.run(TestRunner.java:589)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:377)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:371)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:332)
+at org.testng.SuiteRunner.run(SuiteRunner.java:276)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:53)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:96)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1212)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1134)
+at org.testng.TestNG.runSuites(TestNG.java:1063)
+at org.testng.TestNG.run(TestNG.java:1031)
+at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+]]>
+            </full-stacktrace>
+          </exception> <!-- org.testng.TestNGException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifydownloadappliform -->
+        <test-method is-config="true" signature="clickonApplicationHeader(org.testng.ITestResult)[pri:0, instance:Maven.VerifyWBSEDClPage@543588e6]" started-at="2022-05-30T11:37:44 IST" name="clickonApplicationHeader" finished-at="1970-01-01T05:30:00 IST" duration-ms="-1653890864231" status="SKIP">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- clickonApplicationHeader -->
+        <test-method is-config="true" signature="closebrowser()[pri:0, instance:Maven.VerifyWBSEDClPage@543588e6]" started-at="2022-05-30T11:37:44 IST" name="closebrowser" finished-at="1970-01-01T05:30:00 IST" duration-ms="-1653890864254" status="SKIP">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closebrowser -->
+        <test-method is-config="true" signature="closedbrowser()[pri:0, instance:Maven.VerifyWBSEDClPage@543588e6]" started-at="2022-05-30T11:37:44 IST" name="closedbrowser" finished-at="1970-01-01T05:30:00 IST" duration-ms="-1653890864262" status="SKIP">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closedbrowser -->
+      </class> <!-- Maven.VerifyWBSEDClPage -->
+    </test> <!-- FirefoxTest -->
+    <test started-at="2022-05-30T11:37:44 IST" name="IETest" finished-at="2022-05-30T11:37:44 IST" duration-ms="132">
+      <class name="Maven.VerifyWBSEDClPage">
+        <test-method is-config="true" signature="lounchbrowser(java.lang.String)[pri:0, instance:Maven.VerifyWBSEDClPage@7bd4937b]" started-at="2022-05-30T11:37:44 IST" name="lounchbrowser" finished-at="1970-01-01T05:30:00 IST" duration-ms="-1653890864415" status="FAIL">
+          <exception class="org.testng.TestNGException">
+            <message>
+              <![CDATA[
+Parameter 'browser' is required by BeforeTest on method lounchbrowser but has not been marked @Optional or defined
+in C:\Users\Tanmoy\eclipse-workspace\SeleniumTesting\WbSEDCL.xml]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[org.testng.TestNGException: 
+Parameter 'browser' is required by BeforeTest on method lounchbrowser but has not been marked @Optional or defined
+in C:\Users\Tanmoy\eclipse-workspace\SeleniumTesting\WbSEDCL.xml
+at org.testng.internal.Parameters.createParams(Parameters.java:270)
+at org.testng.internal.Parameters.createParametersForMethod(Parameters.java:358)
+at org.testng.internal.Parameters.createParameters(Parameters.java:700)
+at org.testng.internal.Parameters.createConfigurationParameters(Parameters.java:168)
+at org.testng.internal.ConfigInvoker.invokeConfigurations(ConfigInvoker.java:302)
+at org.testng.TestRunner.invokeTestConfigurations(TestRunner.java:637)
+at org.testng.TestRunner.beforeRun(TestRunner.java:627)
+at org.testng.TestRunner.run(TestRunner.java:589)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:377)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:371)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:332)
+at org.testng.SuiteRunner.run(SuiteRunner.java:276)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:53)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:96)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1212)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1134)
+at org.testng.TestNG.runSuites(TestNG.java:1063)
+at org.testng.TestNG.run(TestNG.java:1031)
+at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+]]>
+            </full-stacktrace>
+          </exception> <!-- org.testng.TestNGException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- lounchbrowser -->
+        <test-method is-config="true" signature="createPOMObject()[pri:0, instance:Maven.VerifyWBSEDClPage@7bd4937b]" started-at="2022-05-30T11:37:44 IST" name="createPOMObject" finished-at="1970-01-01T05:30:00 IST" duration-ms="-1653890864437" status="SKIP">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- createPOMObject -->
+        <test-method is-config="true" signature="movetoApplicationHeader()[pri:0, instance:Maven.VerifyWBSEDClPage@7bd4937b]" started-at="2022-05-30T11:37:44 IST" name="movetoApplicationHeader" finished-at="1970-01-01T05:30:00 IST" duration-ms="-1653890864455" status="SKIP">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- movetoApplicationHeader -->
+        <test-method signature="verifyconectionformilities()[pri:1, instance:Maven.VerifyWBSEDClPage@7bd4937b]" started-at="2022-05-30T11:37:44 IST" name="verifyconectionformilities" finished-at="2022-05-30T11:37:44 IST" duration-ms="0" status="SKIP">
+          <exception class="org.testng.TestNGException">
+            <message>
+              <![CDATA[
+Parameter 'browser' is required by BeforeTest on method lounchbrowser but has not been marked @Optional or defined
+in C:\Users\Tanmoy\eclipse-workspace\SeleniumTesting\WbSEDCL.xml]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[org.testng.TestNGException: 
+Parameter 'browser' is required by BeforeTest on method lounchbrowser but has not been marked @Optional or defined
+in C:\Users\Tanmoy\eclipse-workspace\SeleniumTesting\WbSEDCL.xml
+at org.testng.internal.Parameters.createParams(Parameters.java:270)
+at org.testng.internal.Parameters.createParametersForMethod(Parameters.java:358)
+at org.testng.internal.Parameters.createParameters(Parameters.java:700)
+at org.testng.internal.Parameters.createConfigurationParameters(Parameters.java:168)
+at org.testng.internal.ConfigInvoker.invokeConfigurations(ConfigInvoker.java:302)
+at org.testng.TestRunner.invokeTestConfigurations(TestRunner.java:637)
+at org.testng.TestRunner.beforeRun(TestRunner.java:627)
+at org.testng.TestRunner.run(TestRunner.java:589)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:377)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:371)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:332)
+at org.testng.SuiteRunner.run(SuiteRunner.java:276)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:53)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:96)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1212)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1134)
+at org.testng.TestNG.runSuites(TestNG.java:1063)
+at org.testng.TestNG.run(TestNG.java:1031)
+at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+]]>
+            </full-stacktrace>
+          </exception> <!-- org.testng.TestNGException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyconectionformilities -->
+        <test-method is-config="true" signature="clickonApplicationHeader(org.testng.ITestResult)[pri:0, instance:Maven.VerifyWBSEDClPage@7bd4937b]" started-at="2022-05-30T11:37:44 IST" name="clickonApplicationHeader" finished-at="1970-01-01T05:30:00 IST" duration-ms="-1653890864470" status="SKIP">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- clickonApplicationHeader -->
+        <test-method is-config="true" signature="movetoApplicationHeader()[pri:0, instance:Maven.VerifyWBSEDClPage@7bd4937b]" started-at="2022-05-30T11:37:44 IST" name="movetoApplicationHeader" finished-at="1970-01-01T05:30:00 IST" duration-ms="-1653890864479" status="SKIP">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- movetoApplicationHeader -->
+        <test-method signature="verifyconsumerdashboard()[pri:2, instance:Maven.VerifyWBSEDClPage@7bd4937b]" started-at="2022-05-30T11:37:44 IST" name="verifyconsumerdashboard" finished-at="2022-05-30T11:37:44 IST" duration-ms="0" status="SKIP">
+          <exception class="org.testng.TestNGException">
+            <message>
+              <![CDATA[
+Parameter 'browser' is required by BeforeTest on method lounchbrowser but has not been marked @Optional or defined
+in C:\Users\Tanmoy\eclipse-workspace\SeleniumTesting\WbSEDCL.xml]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[org.testng.TestNGException: 
+Parameter 'browser' is required by BeforeTest on method lounchbrowser but has not been marked @Optional or defined
+in C:\Users\Tanmoy\eclipse-workspace\SeleniumTesting\WbSEDCL.xml
+at org.testng.internal.Parameters.createParams(Parameters.java:270)
+at org.testng.internal.Parameters.createParametersForMethod(Parameters.java:358)
+at org.testng.internal.Parameters.createParameters(Parameters.java:700)
+at org.testng.internal.Parameters.createConfigurationParameters(Parameters.java:168)
+at org.testng.internal.ConfigInvoker.invokeConfigurations(ConfigInvoker.java:302)
+at org.testng.TestRunner.invokeTestConfigurations(TestRunner.java:637)
+at org.testng.TestRunner.beforeRun(TestRunner.java:627)
+at org.testng.TestRunner.run(TestRunner.java:589)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:377)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:371)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:332)
+at org.testng.SuiteRunner.run(SuiteRunner.java:276)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:53)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:96)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1212)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1134)
+at org.testng.TestNG.runSuites(TestNG.java:1063)
+at org.testng.TestNG.run(TestNG.java:1031)
+at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+]]>
+            </full-stacktrace>
+          </exception> <!-- org.testng.TestNGException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyconsumerdashboard -->
+        <test-method is-config="true" signature="clickonApplicationHeader(org.testng.ITestResult)[pri:0, instance:Maven.VerifyWBSEDClPage@7bd4937b]" started-at="2022-05-30T11:37:44 IST" name="clickonApplicationHeader" finished-at="1970-01-01T05:30:00 IST" duration-ms="-1653890864503" status="SKIP">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- clickonApplicationHeader -->
+        <test-method is-config="true" signature="movetoApplicationHeader()[pri:0, instance:Maven.VerifyWBSEDClPage@7bd4937b]" started-at="2022-05-30T11:37:44 IST" name="movetoApplicationHeader" finished-at="1970-01-01T05:30:00 IST" duration-ms="-1653890864514" status="SKIP">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- movetoApplicationHeader -->
+        <test-method signature="verifydownloadappliform()[pri:3, instance:Maven.VerifyWBSEDClPage@7bd4937b]" started-at="2022-05-30T11:37:44 IST" name="verifydownloadappliform" finished-at="2022-05-30T11:37:44 IST" duration-ms="0" status="SKIP">
+          <exception class="org.testng.TestNGException">
+            <message>
+              <![CDATA[
+Parameter 'browser' is required by BeforeTest on method lounchbrowser but has not been marked @Optional or defined
+in C:\Users\Tanmoy\eclipse-workspace\SeleniumTesting\WbSEDCL.xml]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[org.testng.TestNGException: 
+Parameter 'browser' is required by BeforeTest on method lounchbrowser but has not been marked @Optional or defined
+in C:\Users\Tanmoy\eclipse-workspace\SeleniumTesting\WbSEDCL.xml
+at org.testng.internal.Parameters.createParams(Parameters.java:270)
+at org.testng.internal.Parameters.createParametersForMethod(Parameters.java:358)
+at org.testng.internal.Parameters.createParameters(Parameters.java:700)
+at org.testng.internal.Parameters.createConfigurationParameters(Parameters.java:168)
+at org.testng.internal.ConfigInvoker.invokeConfigurations(ConfigInvoker.java:302)
+at org.testng.TestRunner.invokeTestConfigurations(TestRunner.java:637)
+at org.testng.TestRunner.beforeRun(TestRunner.java:627)
+at org.testng.TestRunner.run(TestRunner.java:589)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:377)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:371)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:332)
+at org.testng.SuiteRunner.run(SuiteRunner.java:276)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:53)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:96)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1212)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1134)
+at org.testng.TestNG.runSuites(TestNG.java:1063)
+at org.testng.TestNG.run(TestNG.java:1031)
+at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+]]>
+            </full-stacktrace>
+          </exception> <!-- org.testng.TestNGException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifydownloadappliform -->
+        <test-method is-config="true" signature="clickonApplicationHeader(org.testng.ITestResult)[pri:0, instance:Maven.VerifyWBSEDClPage@7bd4937b]" started-at="2022-05-30T11:37:44 IST" name="clickonApplicationHeader" finished-at="1970-01-01T05:30:00 IST" duration-ms="-1653890864529" status="SKIP">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- clickonApplicationHeader -->
+        <test-method is-config="true" signature="closebrowser()[pri:0, instance:Maven.VerifyWBSEDClPage@7bd4937b]" started-at="2022-05-30T11:37:44 IST" name="closebrowser" finished-at="1970-01-01T05:30:00 IST" duration-ms="-1653890864537" status="SKIP">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closebrowser -->
+        <test-method is-config="true" signature="closedbrowser()[pri:0, instance:Maven.VerifyWBSEDClPage@7bd4937b]" started-at="2022-05-30T11:37:44 IST" name="closedbrowser" finished-at="1970-01-01T05:30:00 IST" duration-ms="-1653890864539" status="SKIP">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closedbrowser -->
+      </class> <!-- Maven.VerifyWBSEDClPage -->
+    </test> <!-- IETest -->
+  </suite> <!-- Suite 3 -->
+</testng-results>

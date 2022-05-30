@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [Suite 3]" guice-stage="DEVELOPMENT">
+  <parameter name="browserName" value="Internet Explorer"/>
+  <test thread-count="5" name="ChromeTest(failed)">
+    <classes>
+      <class name="Maven.VerifyWBSEDClPage">
+        <methods>
+          <include name="lounchbrowser"/>
+          <include name="verifyconectionformilities"/>
+          <include name="closedbrowser"/>
+          <include name="movetoApplicationHeader"/>
+          <include name="verifyconsumerdashboard"/>
+          <include name="closebrowser"/>
+          <include name="verifydownloadappliform"/>
+          <include name="clickonApplicationHeader"/>
+          <include name="createPOMObject"/>
+        </methods>
+      </class> <!-- Maven.VerifyWBSEDClPage -->
+    </classes>
+  </test> <!-- ChromeTest(failed) -->
+  <test thread-count="5" name="FirefoxTest(failed)">
+    <classes>
+      <class name="Maven.VerifyWBSEDClPage">
+        <methods>
+          <include name="lounchbrowser"/>
+          <include name="verifyconectionformilities"/>
+          <include name="closedbrowser"/>
+          <include name="movetoApplicationHeader"/>
+          <include name="verifyconsumerdashboard"/>
+          <include name="closebrowser"/>
+          <include name="verifydownloadappliform"/>
+          <include name="clickonApplicationHeader"/>
+          <include name="createPOMObject"/>
+        </methods>
+      </class> <!-- Maven.VerifyWBSEDClPage -->
+    </classes>
+  </test> <!-- FirefoxTest(failed) -->
+  <test thread-count="5" name="IETest(failed)">
+    <classes>
+      <class name="Maven.VerifyWBSEDClPage">
+        <methods>
+          <include name="lounchbrowser"/>
+          <include name="verifyconectionformilities"/>
+          <include name="closedbrowser"/>
+          <include name="movetoApplicationHeader"/>
+          <include name="verifyconsumerdashboard"/>
+          <include name="closebrowser"/>
+          <include name="verifydownloadappliform"/>
+          <include name="clickonApplicationHeader"/>
+          <include name="createPOMObject"/>
+        </methods>
+      </class> <!-- Maven.VerifyWBSEDClPage -->
+    </classes>
+  </test> <!-- IETest(failed) -->
+</suite> <!-- Failed suite [Suite 3] -->
