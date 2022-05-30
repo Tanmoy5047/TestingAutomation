@@ -54,6 +54,21 @@ public class LogInPage {
 		logout.click();
 	}
 
+	/*public void clickonLoginpage()
+	{	hiddenpopup.click();
+		login.click();
+		email.sendKeys("findtanmoyghosh@gmail.com");
+		password.sendKeys("T@nmoy123");
+		loginbutton.click();
+	}
+	
+	public void clickonlogout()
+	{
+		profile.click();
+		logout.click();
+	}*/
+
+
 	
 	
 	
